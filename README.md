@@ -57,7 +57,7 @@ or
 ```
 mono nnmnist.exe <config.json>
 ```
-where <config.json> is a configuration file. There is [an example configuration file](./src/csharp/nnmnist/default.json) in the source codes. The example configuration file runs meSimp. The output will be written to a file at the same location with the executable. 
+where <config.json> is a configuration file. There is [an example configuration file](./src/nnmnist/default.json) in the source codes. The example configuration file runs meSimp. The output will be written to a file at the same location with the executable. 
 
 
 # Citation
