@@ -7,7 +7,6 @@ The codes were used for experiments on MNIST with _Training Simplification and M
 
 We propose a simple yet effective technique to simplify the training and the resulting model of neural networks. The technique is based on the top-k selection of the gradients in back propagation.
 
-
 Based on the sparsified gradients from meProp, we further simplify the model by **eliminating the rows or columns that are seldom updated**, which will reduce the computational cost both in the training and decoding, and potentially accelerate decoding in real-world applications. We name this method **meSimp** (*m*inimal *e*ffort *simp*lification).
 
 The model simplification results show that we could adaptively simplify the model which could often be **reduced by around 9x, without any loss on accuracy or even with improved accuracy**.
@@ -47,7 +46,7 @@ MNIST: Download from [link](http://yann.lecun.com/exdb/mnist/). Extract the file
 
 
 ## Run
-### C#
+
 Compile the code first, or use the executable provided in releases.
 
 Then
@@ -58,10 +57,10 @@ or
 ```
 mono nnmnist.exe <config.json>
 ```
-where <config.json> is a configuration file. There is [an example configuration file](./src/csharp/nnmnist/default.json) in the source codes. The example configuration file runs the baseline model. Change the NetType to _mlpvar_ for experimenting with meSimp. The output will be written to a file at the same location with the executable. 
+where <config.json> is a configuration file. There is [an example configuration file](./src/csharp/nnmnist/default.json) in the source codes. The example configuration file runs meSimp. The output will be written to a file at the same location with the executable. 
 
 
-## Citation
+# Citation
 
 bibtex:
 ```

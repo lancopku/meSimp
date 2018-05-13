@@ -10,7 +10,7 @@
   "LearningRate": 0.001,
   "MaxEpoch": 20,
   "MinibatchSize": 100,
-  "NetType": "mlp",
+  "NetType": "mlpvar",
   "OptType": "adam",
   "Prune": 0.1,
   "RandomSeed": -1,
