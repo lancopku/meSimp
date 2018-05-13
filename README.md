@@ -61,8 +61,8 @@ where <config.json> is a configuration file. There is [an example configuration 
 
 
 # Citation
+If you use this code for your research, please cite the paper this code is based on: <a href="https://arxiv.org/pdf/1711.06528.pdf">Training Simplification and Model Simplification for Deep Learning: A Minimal Effort Back Propagation Method:
 
-bibtex:
 ```
 @article{sun17mesimp,
   title     = {Training Simplification and Model Simplification for Deep Learning: A Minimal Effort Back Propagation Method},
